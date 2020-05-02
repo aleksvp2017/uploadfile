@@ -1,0 +1,17 @@
+{
+  "name": "uploadfile",
+  "version": "1.0.0",
+  "description": "Receive a file from a http post and transform it in a stream",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksander Velozo Pascoal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "streamifier": "^0.1.1"
+  }
+}
